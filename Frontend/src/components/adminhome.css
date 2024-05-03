@@ -1,0 +1,42 @@
+/* homepage.css */
+.body-homes{
+    background: #EAECF0;
+    height: 200vh;
+    
+}
+.bodyheaders {
+    background-color: #C0C0C0;
+    height:5%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+
+
+
+.texttitles {
+    position: absolute;
+    top: 20px;
+    justify-content: center;
+    color: black;
+    font-weight: bolder;
+    font-size: 180%;
+}
+
+
+
+
+.foots {
+    background-color: #C0C0C0;
+    margin-top: 100vh;
+    position: fixed;
+    height: 8vh;
+    width: 100%; /* Adjusted to occupy the full width */
+    bottom: 0; /* Stick to the bottom */
+    left: 0; /* Align to the left */
+    right: 0; /* Align to the right */
+    text-align: center;
+    font-family: Arial, sans-serif;
+    z-index: 1000; /* Ensure the footer stays on top of other content */
+}

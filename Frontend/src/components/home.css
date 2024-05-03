@@ -1,0 +1,170 @@
+/* homepage.css */
+.body-home{
+    background: #EAECF0;
+    height: 100vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+.bodyheader {
+    background-color: #C0C0C0;
+    height:10%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+
+.bodyheader h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.texttitle {
+    position: absolute;
+    top: 20px;
+    justify-content: center;
+    color: black;
+    font-weight: bolder;
+    font-size: 180%;
+}
+
+.optionmenu {
+    color: #FFFFFF;
+    position: absolute;
+    width: 250px;
+    height: 100vh;
+    background-color: #363740;
+    left: 0px;
+    
+}
+
+.buttonoption {
+
+    top:10%;
+    background: transparent;
+    border-right: transparent;
+    border-left: transparent;
+    border-top: transparent;
+    padding: 20px 90px;
+    border-color: #01F6F6;
+    font-size: 100%;
+    font-weight: bold;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.hello{
+    position:absolute;
+    left: 20%;
+    top: 13%;
+}
+
+.prof-card{
+    position:absolute;
+    left: 20%;
+    top: 20%;
+    height: 35vh;
+    width: 30vw;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    display: grid;
+
+}
+.grid{
+    display: grid;
+}
+.Attend{
+    position:absolute;
+    left: 53%;
+    top: 20%;
+    height: 15vh;
+    width: 20vw;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    display: grid;
+    justify-content: center;
+}
+
+.Tasks{
+    position:absolute;
+    left: 53%;
+    top: 40%;
+    height: 15vh;
+    width: 20vw;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    display: grid;
+    justify-content: center;
+}
+
+.CTasks{
+    position:absolute;
+    left: 20%;
+    top: 60%;
+    height: 30vh;
+    width: 53vw;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+}
+.week{
+    position:absolute;
+    display: inline;
+    left: 3%;
+    top: 25%;
+    height: 20vh;
+    width: 9vw;
+    border-radius: 20px;
+    background-color:#C0C0C0;
+    justify-content: center;
+    text-align: center;
+}
+.bulletin{
+    position:absolute;
+    display: inline;
+    left: 75%;
+    top: 40%;
+    height: 50vh;
+    width: 20vw;
+    border-radius: 20px;
+    background-color:#FFFFFF;
+    justify-content: center;
+    text-align: center;
+}
+.week1{
+    position:absolute;
+    left: 10%;
+    top: 10%;
+    height: 15vh;
+    width: 16vw;
+    border-radius: 20px;
+    margin: 10px;
+    background-color:#C0C0C0;
+    
+    
+}
+.foot{
+    background-color: #C0C0C0;
+    position: absolute;
+    height: 8vh;
+    width: 83vw;
+    bottom: 0%;
+    right: 0%;
+    justify-content: center;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    
+}
+
+.Result{
+    position:absolute;
+    left: 75%;
+    top: 20%;
+    height: 15vh;
+    width: 20vw;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    display: grid;
+    justify-content: center;
+}
